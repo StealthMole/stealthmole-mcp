@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# Python tooling caches
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+pip-wheel-metadata/
+.ropeproject/
+
+# Misc build/artifacts
+*.egg
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS and binary files
+.DS_Store
+Thumbs.db
+*.so
+
+# Local instance/config
+instance/

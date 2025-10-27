@@ -1,0 +1,16 @@
+runtime: python
+
+name: stealthmole-mcp
+version: 0.1.0
+description: StealthMole API MCP Server - Access threat intelligence from Deep & Dark Web
+
+config:
+  access_key:
+    type: string
+    description: Your StealthMole API access key
+    required: true
+  secret_key:
+    type: string
+    description: Your StealthMole API secret key
+    required: true
+    secret: true

@@ -4,6 +4,15 @@ name: stealthmole-mcp
 version: 0.1.0
 description: StealthMole API MCP Server - Access threat intelligence from Deep & Dark Web
 
+repository: https://github.com/StealthMole/stealthmole-mcp
+
+tags:
+  - security
+  - threat-intelligence
+  - darkweb
+  - credentials
+  - monitoring
+
 config:
   access_key:
     type: string

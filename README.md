@@ -1,5 +1,7 @@
 # StealthMole MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@StealthMole/stealthmole-mcp)](https://smithery.ai/server/@StealthMole/stealthmole-mcp)
+
 MCP (Model Context Protocol) server for accessing StealthMole threat intelligence API. Search and monitor threats across Deep & Dark Web through Claude and other MCP clients.
 
 ## Features
@@ -30,6 +32,14 @@ MCP (Model Context Protocol) server for accessing StealthMole threat intelligenc
 - **Smithery API key** (optional): For deployment at [smithery.ai/account/api-keys](https://smithery.ai/account/api-keys)
 
 ## Installation
+
+### Installing via Smithery
+
+To install StealthMole MCP automatically via [Smithery](https://smithery.ai/server/@StealthMole/stealthmole-mcp):
+
+```bash
+npx -y @smithery/cli install @StealthMole/stealthmole-mcp
+```
 
 ### Development Setup
 

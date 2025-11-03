@@ -385,7 +385,7 @@ def create_server():
         query: str,
         limit: int = 50,
         cursor: int = 0,
-        order_type: str = "leakedDate",
+        order_type: str = "LeakedDate",
         order: str = "desc",
         start: Optional[int] = None,
         end: Optional[int] = None,
@@ -398,7 +398,7 @@ def create_server():
             query: Search query with indicators (domain:, email:, id:, password:, after:, before:)
             limit: Number of results (default: 50, max: 50)
             cursor: Pagination cursor
-            order_type: Sort by leakedDate, domain, email, password, or leakedFrom
+            order_type: Sort by LeakedDate, domain, email, password, or leakedFrom
             order: asc or desc
             start: Filter by UTC timestamp (data added after)
             end: Filter by UTC timestamp (data added before)
@@ -434,7 +434,7 @@ def create_server():
         query: str,
         limit: int = 50,
         cursor: int = 0,
-        order_type: str = "leakedDate",
+        order_type: str = "LeakedDate",
         order: str = "desc",
         start: Optional[int] = None,
         end: Optional[int] = None,
@@ -447,7 +447,7 @@ def create_server():
             query: Search query with indicators (domain:, url:, email:, id:, password:, ip:, country:, after:, before:)
             limit: Number of results (default: 50, max: 50)
             cursor: Pagination cursor
-            order_type: Sort by leakedDate, host, user, password, or regdate
+            order_type: Sort by LeakedDate, host, user, password, or regdate
             order: asc or desc
             start: Filter by UTC timestamp
             end: Filter by UTC timestamp
@@ -504,7 +504,7 @@ def create_server():
         query: str,
         limit: int = 50,
         cursor: int = 0,
-        order_type: str = "leakedDate",
+        order_type: str = "LeakedDate",
         order: str = "desc",
         start: Optional[int] = None,
         end: Optional[int] = None,
@@ -517,7 +517,7 @@ def create_server():
             query: Search query with indicators (domain:, email:, id:, password:, after:, before:)
             limit: Number of results (max: 50)
             cursor: Pagination cursor
-            order_type: Sort by leakedDate, user, or password
+            order_type: Sort by LeakedDate, user, or password
             order: asc or desc
             start: Filter by UTC timestamp
             end: Filter by UTC timestamp
@@ -553,7 +553,7 @@ def create_server():
         query: str,
         limit: int = 50,
         cursor: int = 0,
-        order_type: str = "leakedDate",
+        order_type: str = "LeakedDate",
         order: str = "desc",
         start: Optional[int] = None,
         end: Optional[int] = None,
@@ -566,7 +566,7 @@ def create_server():
             query: Search query with indicators (domain:, url:, email:, id:, password:, after:, before:)
             limit: Number of results (max: 50)
             cursor: Pagination cursor
-            order_type: Sort by leakedDate, host, user, or password
+            order_type: Sort by LeakedDate, host, user, or password
             order: asc or desc
             start: Filter by UTC timestamp
             end: Filter by UTC timestamp
